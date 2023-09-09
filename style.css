@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border: 1px solid #ccc;
+}
+
+.day {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
